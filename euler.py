@@ -11,7 +11,7 @@ it shows the graph and the process of joining all peaks without repeating the li
 import turtle
 
 
-#A Procedue to draw any regular polygon with 3 or more sides.
+#A Procedure to draw any regular polygon with 3 or more sides.
 def drawPolygon(numberOfsides):
     exteriorAngle=360/numberOfsides
     length=600/numberOfsides
@@ -39,7 +39,7 @@ def drawPolygon(numberOfsides):
         print("Too big a graph to draw.")
 
 
-#A Procedue connect all points to each other visiting them once for a 5-polygon.
+#A Procedure connect all points to each other visiting them once for a 5-polygon.
 def circuit_five(p):
     index = 0
     step = 1
@@ -63,7 +63,7 @@ def circuit_five(p):
             index = index + step
         myPen.goto(p[index])
 
-#A Procedue connect all points to each other visiting them once for a 7-polygon.
+#A Procedure connect all points to each other visiting them once for a 7-polygon.
 def circuit_seven(p):
     index = 0
     step = 2
@@ -99,7 +99,7 @@ def circuit_seven(p):
             index = index + step
         myPen.goto(p[index])
         
-#A Procedue connect all points to each other visiting them once for a 9-polygon.
+#A Procedure connect all points to each other visiting them once for a 9-polygon.
 def circuit_nine(p):
     index = 0
     step = 2
@@ -167,7 +167,7 @@ def circuit_nine(p):
             index = index + step
         myPen.goto(p[index])
 
-#A Procedue connect all points to each other visiting them once for a 11-polygon.
+#A Procedure connect all points to each other visiting them once for a 11-polygon.
 def circuit_eleven(p):
     index = 0
     step = 2
